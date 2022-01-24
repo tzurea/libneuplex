@@ -1,0 +1,25 @@
+{
+  "packages": [
+    {
+      "name": "README",
+      "decks": [
+        {
+          "name": "Sahashra",
+          "src": [
+            {
+              "type": "markdown",
+              "file": "README.cards",
+              "card_properties": {
+                "tags": [
+                  "Physics",
+                  "ModernPhysics",
+                  "Photons"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

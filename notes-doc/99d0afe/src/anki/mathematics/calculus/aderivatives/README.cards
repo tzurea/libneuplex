@@ -1,0 +1,177 @@
+Formula for derivatives
+=======================
+
+$$\begin{aligned}
+    \frac{d}{dx} x^n &= nx^{n-1} \\ 
+    \frac{d}{dx} (ax+b)^n &= n(ax+b)^{n-1}a \\ 
+    \frac{d}{dx} \sin x &= \cos x \\ 
+    \frac{d}{dx} \cos x   &= - \sin x \\ 
+    \frac{d}{dx}  \tan x  &= \sec^{2}x \\ 
+    \frac{d}{dx}  \sec x &=  \sec x \tan x \\ 
+    \frac{d}{dx}   \csc x &=  \csc x \cot x \\ 
+    \frac{d}{dx}  \cot x  &=  - \csc^{2}x \\ 
+    \frac{d}{dx}  e^x  &= e^{x} \\ 
+    \frac{d}{dx}  e^{ax}  &= ae^{ax} \\ 
+    \frac{d}{dx} \log_{e}x &= \frac{1}{x} \\
+    \frac{d}{dx} \log_{e}(ax+b) &= \frac{1}{ax+b} 
+  \end{aligned}$$
+
+Formulae for anti derivatives
+=============================
+
+$$\begin{aligned}
+        \int x^n dx &= \frac{x^{n+1}}{n+1} \\ 
+        \int (ax+b)^{n}dx &= \frac{(ax+b)^{n+1}}{(n+1)a}  + C \\ 
+        \int \cos x dx &= \sin x+ C \\ 
+        \int \sin x dx &= - \cos x+ C \\ 
+        \int \sec^{2}x dx &= \tan x + C \\ 
+        \int \csc^{2}x dx &= - \cot x+ C \\ 
+        \int \sec x \tan x dx &= \sec x+ C \\ 
+        \int \csc x \cot x dx &= - \csc x+ C \\ 
+        \int \csc^{2}x dx &=- \cot x+ C \\ 
+        \int e^{x} dx &= e^{x} + C \\ 
+        \int e^{ax} dx &= \frac{e^{ax}}{a}  + C \\ 
+        \int \frac{1}{x} dx &= \log_{e}x+ C \\ 
+        \int \frac{1}{ax+b} dx &= \frac{\log_{e}(ax+b)  }{a} + C  
+      \end{aligned}$$
+
+Formulae for substitution
+=========================
+
+$$\begin{aligned}
+    x^2 + a^2 \implies x &= a \tan \theta \\ 
+    a^2 - x^2 \implies x &= a \sin \theta \\
+    x^2 - a^2 \implies x &= a \sec \theta
+  \end{aligned}$$
+
+Formulae for standard integrals
+===============================
+
+$$\begin{aligned}
+     \int \frac{1}{x^2+a^2} dx &= \frac{1}{a} \tan^{-1}{\frac{x}{a}} +C \\
+     \int \frac{1}{x^2 - a^2} dx &= \frac{1}{2a} \log_{e}(\frac{x-a}{x+a}) + C \\
+     \int \frac{1}{a^{2} - x^2}dx &= \frac{1}{2a} \log_{e}(\frac{a+x}{a-x}) + C \\
+     \int \frac{1}{\sqrt{x^2+a^2}}dx &= \log_{e}(x + \sqrt{x^2 + a^2}) + C \\
+     \int \frac{1}{\sqrt{x^2 - a^2}}dx &= \log_{e}(x + \sqrt{x^2 - a^2}) + C \\
+     \int \frac{1}{\sqrt{a^2 - x^2}}dx &= \sin^{-1}(\frac{x}{a}) + C 
+   \end{aligned}$$
+
+
+
+
+
+
+
+
+Concept of Integration
+======================
+
+-   Indefinite integral is the collection of family of curves.
+
+-   Indefinite integral is the curve formed by composing the contact
+    points of all possible tangents in a curve.
+
+-   The constant $C$ is a family of possibilities.
+    $$\frac{d}{dx}[x^2,x^2+6,x^2+100,x^2+\frac{12}{9087},x^2 + \sqrt{31212}\times \frac{2617}{2893}] = 2x$$
+    $$\int 2x . dx = x^2 + C$$
+
+Integration of exponential function
+===================================
+
+Integral structure of function in base of euler’s number
+--------------------------------------------------------
+
+For a function $f(x)$ : $$\begin{aligned}
+        \frac{d}{dx}[e^{f(x)}] &= e^{f(x)} \times \frac{d}{dx} f(x)\\
+        \int e^{f(x)}.f^{'}(x)dx &= e^{f(x)} + C
+     \end{aligned}$$
+
+-   The integral of functions $e^{f(x)} \times f^{'}(x)$ is given by:
+    $$\int e^{f(x)}.f^{'}(x)dx = e^{f(x)} + C$$
+
+-   If the function can be expressed as $f^{'}(x)$ forms only after
+    operating with a constant in it should be added.
+
+Integral structure of function in base of a constant $a$ 
+--------------------------------------------------------
+
+For a function $f(x)$ and a constant $a$ : $$\begin{aligned}
+        \frac{d}{dx} [a^{x}] &= a^{x}.1.\log_{e}(a) \\
+        \frac{d}{dx} [a^{f(x)}] &= a^{f(x)}. \frac{d}{dx}f(x) \\
+        \int a^{f(x)}. f^{'}(x) &= a^{f(x)}. \frac{1}{ \log_{e}(a) } + C
+      \end{aligned}$$
+
+The integral of functions $a^{f(x) \times f^{'}(x)}$ is given by:
+$$\int a^{f(x)}. f^{'}(x) = \frac{a^{f(x)}}{\log_{e}(a)} + C$$
+
+
+
+
+If the function can be expressed as $f^{'}(x)$ forms only after
+operating with a constant in it should be added.
+-   The **trigonometric** functions are related to each other.
+
+    -   **Cosine** functions: $\sin x , \cos x$
+
+    -   **Cosecant** functions: $\csc x , \sec x$
+
+    -   **Cotangent** functions: $\cot x , \tan x$
+
+<!-- -->
+
+-   The **relation** of antiderivative by parts is:
+    $$\int uv dx = u \int vdx - \int{(\frac{du}{dx}\int{vdx})dx}$$
+
+-   The $v$ and $u$ functions are chosen by **ILLATEC** rule.
+
+    -   $I$ = **Inverse Circular**
+
+    -   $L$ = **Logarithmic**
+
+    -   $A$ = **Algaebraic**
+
+    -   $T$ = **Trigonometric**
+
+    -   $E$ = **Exponential**
+
+    -   $C$ = **Constant**
+
+-   The **antiderivative** of $\sec^{3}x$ is:
+    $$\int \sec^{3}xdx = \frac{1}{2}(\frac{d}{dx} \sec x + \int \sec x) + C$$
+
+-   The **antiderivative** of functions of the type $x^n f(x)$ is
+    evaluated by:
+
+    -   f(x) is **easily** integrated.
+
+    -   **expression** can be evaluated using integration by **parts**
+        rule.
+
+    $$\begin{aligned}
+        \int x^n f(x) dx &= x^n \int f(x) \\
+        \int x^n f(x) dx &= \frac{d}{dx}x^n \int f(x) - \frac{d^2}{dx^2}x^n \int \int f(x) + \frac{d^3}{dx^3} \int \int \int f(x)  
+      \end{aligned}$$
+
+    $$\begin{aligned}
+         \int x^n f(x)dx &= \int uvdx \\
+       \end{aligned}$$
+
+<!-- -->
+
+-   The **antiderivative** is calculated by **differentiation** of $u$
+    and **integration** of $v$ with **alternate** signs.
+
+$$\int uvdx = \frac{d}{dx} u \int v - \frac{d^2}{dx^2} u \int \int v + \frac{d^3}{dx^3} u \int \int \int v$$
+
+De -Dt rule for integration
+===========================
+
+-   The integration of the function of form $e^{ax} \sin(bx)dx$ can be
+    done in:
+    $$\int e^{ax} \sin{bx} dx = \frac{1}{a^2 + b^2}(\frac{d}{dx}e^{ax} \times \sin bx - e^{ax} \frac{d}{dx} \sin bx) + C$$
+
+
+
+ 
+
+

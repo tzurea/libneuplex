@@ -1,0 +1,141 @@
+nid	mid	fields
+1639705168440	1637594420211		  
+
+1639705168875	1637594420211		  
+1639876819775	1637594420211	Sodium iodide symporter co transports {{c1  1 iodide ion}} along with {{c2  two sodium ions}}   
+	  
+1639876819893	1637594420211	{{c1  Iodide trapping }} is {{c2  process of concentrating iodide in cell.}}   
+	  
+1639876820027	1637594420211	Iodide concentration in thyroid cell is {{c1  30}} times than in blood  
+	  
+1639876820121	1637594420211	Maximum concentration of iodide in thyroid cell is {{c1  250}} times than in blood  
+	  
+1639876820215	1637594420211	Activity of iodide pump in thyroid cell is stimulated by {{c1  TSH}}   
+	  
+1639876820318	1637594420211	{{c1  Pendrin }} is {{c2  Chloride iodide counter transport molecule}}   
+	  
+1639876820414	1637594420211	Role of pendrin is to  
+	 Transfer iodide from thyroid cells to follicles
+
+
+
+
+
+
+1639877028412	1637594420211	Sodium iodide symporter co transports {{c1  1 iodide ion}} along with {{c2  two sodium ions}}   
+	  
+1639877028568	1637594420211	{{c1  Iodide trapping }} is {{c2  process of concentrating iodide in cell.}}   
+	  
+1639877028658	1637594420211	Iodide concentration in thyroid cell is {{c1  30}} times than in blood  
+	  
+1639877028736	1637594420211	Maximum concentration of iodide in thyroid cell is {{c1  250}} times than in blood  
+	  
+1639877028818	1637594420211	Activity of iodide pump in thyroid cell is stimulated by {{c1  TSH}}   
+	  
+1639877028919	1637594420211	{{c1  Pendrin }} is {{c2  Chloride iodide counter transport molecule}}   
+	  
+1639877029001	1637594420211	Role of pendrin is to  
+	 Transfer iodide from thyroid cells to follicles
+
+
+
+
+
+
+1639877355507	1637594420211	kenrel	kernel<br>
+1639880461569	1637594420215	Role of pendrin is to  
+	  Transfer iodide from thyroid cells to follicles
+
+1640343709357	1637594420211	Review problem for  
+	  
+
+1640343734888	1637594420211	Review problem for Find 
+	  
+
+1640401292554	1637594420215	Relation of mayer's formula is {{c1::}}   
+	  
+1640401292680	1637594420215	For one mole of gas when Cp and Cv are units of work , mayer's formula is {{c1::}}   
+	  
+1640401292773	1637594420215	For one mole of gas when Cp and Cv are units of heat , mayer's formula is {{c1::}}   
+	  
+1640401292859	1637594420215	For one gram of gas when cp and cv are units of work, mayer's formula is {{c1::}}   
+	  
+1640401292946	1637594420215	For one gram of gas when cp and cv are units of heat, mayer's formula is {{c1::}}   
+	  
+1640401293061	1637594420215	Heat lost or gained by n moles of gas at constant pressure is {{c1::}}   
+	  
+1640401293167	1637594420215	Heat lost or gained by n moles of gas at constant temperature is {{c1::}}   
+	  
+1640401293256	1637594420215	Notation of ratio of two principal specific heats is {{c1::}}   
+	  
+1640401293363	1637594420215	Expression of ratio of two principal specific heats is {{c1::}}   
+	  
+1640401293623	1637594420215	The value of depends on {{c1::atomicity of gas}}   
+	  
+1640401293732	1637594420215	Expression of number of moles of gas is {{c1::}}   
+	  
+1640401293854	1637594420215	Expression of gas constant for 1g of a gas is {{c1::}}   
+	  
+1640401293968	1637594420215	 is {{c1::4.18 }}   
+	  
+1640401294124	1637594420215	Unit of R in terms of joule  is {{c1::}}   
+	  
+1640401294223	1637594420215	Unit of R in terms of calorie is {{c1::}}   
+	 
+
+
+
+1640483779988	1637594420215	{{c1::Trigonometric equations}} are equations involving {{c2::one or more}} {{c2::trigonometric functions}} of {{c1::unknown angles}}     
+	  
+1640605749159	1637594420215	Odd power of cosec is {{c1::greater}} than {{c1::1}}   
+	  
+1640605749796	1637594420215	Even power of cos is {{c1::less}} than {{c1::1}}   
+	  
+1640605750275	1637594420215	Even power of cosec is {{c1::greater}} than {{c1::1}}   
+	  
+1640605750753	1637594420215	Even power of cot is {{c1:: less}} than {{c1:: infinity}}   
+	  
+1640605750533	1637594420215	Even power of sec is {{c1::less}} than {{c1:: infinity}}   
+	  
+1640605748723	1637594420215	Odd power of tan is {{c1::greater}} than {{c1::- infinity}}   
+	  
+1640605748492	1637594420215	Odd power of cos is {{c1::less}} than {{c1::1}}   
+	  
+1640605749362	1637594420215	Odd power of sec is {{c1::greater}} than {{c1::1}}   
+	  
+1640605748957	1637594420215	Odd power of cot is {{c1::less}} than {{c1:: infinity}}   
+	  
+1640605749568	1637594420215	Even power of sine is {{c1::greater}} than {{c1::0}}   
+	  
+1640605749159	1637594420215	Odd power of cosec is {{c1::greater}} than {{c1::1}}   
+	  
+1640605750085	1637594420215	Even power of tan is {{c1::greater}} than {{c1::0}}   
+	  
+1640605748218	1637594420215	Odd power of sine is {{c1::greater}} than {{c1::-1}}   
+	  
+1640743789298	1637594420215	{{c::Mitral valve}} is also called {{c1::Left atrioventricular valve}} and the {{c1::bicuspid valve}}    
+	  
+1640743789852	1637594420215	{{c::Right fibrous trigone}} is the thickened are of connective tissue between {{c1::aortic ring}} and {{c1::right atrioventricular ring}}   
+	  
+1640743790006	1637594420215	{{c1::Left fibrous trigone}} is the thickened are of connective tissue between {{c1::aortic ring}} and {{c1::left atrioventricular ring}}   
+	  
+1640743793656	1637594420215	The {{c1::first}} heart sound is heard as {{c1::dubb}}   
+	  
+1640744124911	1637594420215	qThe {{c2::first}} heart sound is heard as {{c1::lubb}}   
+	  
+1640780157600	1637594420212	<img src="paste-fdeeb8d028609b05948a9ad3e30061b5e9879d18.jpg">	<img src="paste-e1f12097dc7eb8afbf24d0e1da1751a4d17ddae3.jpg">
+1640782596995	1637594420211	Number of COOH in&nbsp;<img src="paste-c7072c98f8c432d0acf7f083498fe07c7706b2d5.jpg">&nbsp;is	1
+1640915069306	1640914954042	8b4547c23b8f44ab972d0c5ac7c9e1e0-oa-1		<img src="tmpxnt8nw43.png" />	<img src="8b4547c23b8f44ab972d0c5ac7c9e1e0-oa-1-Q.svg" />						<img src="8b4547c23b8f44ab972d0c5ac7c9e1e0-oa-1-A.svg" />	<img src="8b4547c23b8f44ab972d0c5ac7c9e1e0-oa-O.svg" />
+1640915069337	1640914954042	8b4547c23b8f44ab972d0c5ac7c9e1e0-oa-2		<img src="tmpxnt8nw43.png" />	<img src="8b4547c23b8f44ab972d0c5ac7c9e1e0-oa-2-Q.svg" />						<img src="8b4547c23b8f44ab972d0c5ac7c9e1e0-oa-2-A.svg" />	<img src="8b4547c23b8f44ab972d0c5ac7c9e1e0-oa-O.svg" />
+1640915069338	1640914954042	8b4547c23b8f44ab972d0c5ac7c9e1e0-oa-3		<img src="tmpxnt8nw43.png" />	<img src="8b4547c23b8f44ab972d0c5ac7c9e1e0-oa-3-Q.svg" />						<img src="8b4547c23b8f44ab972d0c5ac7c9e1e0-oa-3-A.svg" />	<img src="8b4547c23b8f44ab972d0c5ac7c9e1e0-oa-O.svg" />
+1640915069342	1640914954042	8b4547c23b8f44ab972d0c5ac7c9e1e0-oa-4		<img src="tmpxnt8nw43.png" />	<img src="8b4547c23b8f44ab972d0c5ac7c9e1e0-oa-4-Q.svg" />						<img src="8b4547c23b8f44ab972d0c5ac7c9e1e0-oa-4-A.svg" />	<img src="8b4547c23b8f44ab972d0c5ac7c9e1e0-oa-O.svg" />
+1640915069343	1640914954042	8b4547c23b8f44ab972d0c5ac7c9e1e0-oa-5		<img src="tmpxnt8nw43.png" />	<img src="8b4547c23b8f44ab972d0c5ac7c9e1e0-oa-5-Q.svg" />						<img src="8b4547c23b8f44ab972d0c5ac7c9e1e0-oa-5-A.svg" />	<img src="8b4547c23b8f44ab972d0c5ac7c9e1e0-oa-O.svg" />
+1640915069345	1640914954042	8b4547c23b8f44ab972d0c5ac7c9e1e0-oa-6		<img src="tmpxnt8nw43.png" />	<img src="8b4547c23b8f44ab972d0c5ac7c9e1e0-oa-6-Q.svg" />						<img src="8b4547c23b8f44ab972d0c5ac7c9e1e0-oa-6-A.svg" />	<img src="8b4547c23b8f44ab972d0c5ac7c9e1e0-oa-O.svg" />
+1640915069348	1640914954042	8b4547c23b8f44ab972d0c5ac7c9e1e0-oa-7		<img src="tmpxnt8nw43.png" />	<img src="8b4547c23b8f44ab972d0c5ac7c9e1e0-oa-7-Q.svg" />						<img src="8b4547c23b8f44ab972d0c5ac7c9e1e0-oa-7-A.svg" />	<img src="8b4547c23b8f44ab972d0c5ac7c9e1e0-oa-O.svg" />
+1640915494496	1640914954042	953aef8c280b4d5f955c257354e0e1e6-oa-1		<img src="tmpxnt8nw43.png" />	<img src="953aef8c280b4d5f955c257354e0e1e6-oa-1-Q.svg" />						<img src="953aef8c280b4d5f955c257354e0e1e6-oa-1-A.svg" />	<img src="953aef8c280b4d5f955c257354e0e1e6-oa-O.svg" />
+1640915494513	1640914954042	953aef8c280b4d5f955c257354e0e1e6-oa-2		<img src="tmpxnt8nw43.png" />	<img src="953aef8c280b4d5f955c257354e0e1e6-oa-2-Q.svg" />						<img src="953aef8c280b4d5f955c257354e0e1e6-oa-2-A.svg" />	<img src="953aef8c280b4d5f955c257354e0e1e6-oa-O.svg" />
+1640915494521	1640914954042	953aef8c280b4d5f955c257354e0e1e6-oa-3		<img src="tmpxnt8nw43.png" />	<img src="953aef8c280b4d5f955c257354e0e1e6-oa-3-Q.svg" />						<img src="953aef8c280b4d5f955c257354e0e1e6-oa-3-A.svg" />	<img src="953aef8c280b4d5f955c257354e0e1e6-oa-O.svg" />
+1640915494525	1640914954042	953aef8c280b4d5f955c257354e0e1e6-oa-4		<img src="tmpxnt8nw43.png" />	<img src="953aef8c280b4d5f955c257354e0e1e6-oa-4-Q.svg" />						<img src="953aef8c280b4d5f955c257354e0e1e6-oa-4-A.svg" />	<img src="953aef8c280b4d5f955c257354e0e1e6-oa-O.svg" />
+1640915494526	1640914954042	953aef8c280b4d5f955c257354e0e1e6-oa-5		<img src="tmpxnt8nw43.png" />	<img src="953aef8c280b4d5f955c257354e0e1e6-oa-5-Q.svg" />						<img src="953aef8c280b4d5f955c257354e0e1e6-oa-5-A.svg" />	<img src="953aef8c280b4d5f955c257354e0e1e6-oa-O.svg" />
+1640915494527	1640914954042	953aef8c280b4d5f955c257354e0e1e6-oa-6		<img src="tmpxnt8nw43.png" />	<img src="953aef8c280b4d5f955c257354e0e1e6-oa-6-Q.svg" />						<img src="953aef8c280b4d5f955c257354e0e1e6-oa-6-A.svg" />	<img src="953aef8c280b4d5f955c257354e0e1e6-oa-O.svg" />
+1640915494529	1640914954042	953aef8c280b4d5f955c257354e0e1e6-oa-7		<img src="tmpxnt8nw43.png" />	<img src="953aef8c280b4d5f955c257354e0e1e6-oa-7-Q.svg" />						<img src="953aef8c280b4d5f955c257354e0e1e6-oa-7-A.svg" />	<img src="953aef8c280b4d5f955c257354e0e1e6-oa-O.svg" />

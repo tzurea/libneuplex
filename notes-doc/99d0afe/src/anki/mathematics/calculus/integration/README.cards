@@ -1,0 +1,129 @@
+<<<
+#### State the expression of special trigonometric function as \( a + b \cos(x) \)  in denominator
+---
+
+$$ \int  \frac{dx}{a + b \cos{x}} $$ 
+
+>>> 
+<<<
+### Derive the expression of  Integral of special trigonometic function as $$ \int \frac{dx}{a + b \sin(x)} $$ (All conditions)
+---
+
+$$
+\int \frac{dx}{a + b \cos(x)} \\ 
+=\int \frac{d x}{a\left(\cos ^{2} \frac{1}{2} x+\sin ^{2} \frac{1}{2} x\right)+b\left(\cos ^{2} \frac{1}{2} x-\sin ^{2} \frac{1}{2} x\right)} \\ 
+=\int \frac{1}{(a+b) \cos ^{2} \frac{1}{2} x+(a-b) \sin ^{2} \frac{1}{2} x} \times \frac{\sec ^{2} \frac{1}{2} x}{\sec ^{2} \frac{1}{2} x} dx \\ 
+= \int \frac{\sec^{2}\frac{1}{2}x}{(a + b ) + (a-b)\tan^{2}\frac{1}{2}x} 
+$$
+
+
+# Derivation of condition \( a > b \)
+
+$$
+ \int \frac{\sec^{2}\frac{1}{2}x}{(a + b ) + \sqrt{(a-b)}\tan\frac{1}{2}x}^{2} \\
+y = \sqrt{a -b }\tan{\frac{1}{2}x} \\
+\frac{dy}{dx} = \frac{1}{2}\sqrt{a -b } \sec^{2}{\frac{1}{2}x} \\
+\sec^{2}{\frac{1}{2}x} = \frac{2 dy}{\sqrt{a - b }} \\
+I =  \frac{2}{\sqrt{a-b}} \int \frac{dy}{ (\sqrt{(a + b ) })^{2}+ y^{2 }}\\
+I = \frac{2}{\sqrt{a-b}} \times \frac{1}{ \sqrt{a+b}} \tan^{-1}(\frac{y}{\sqrt{a+b}}) \\
+I = \frac{2}{\sqrt{a^{2}- b^{2}}} \tan^{-1}(\sqrt{\frac{{a-b}}{a + b}} \tan{\frac{x}{2}})
+$$
+
+# Derivation of condition \( b > a \) 
+
+
+$$
+ \int \frac{\sec^{2}\frac{1}{2}x}{(a + b ) - \sqrt{(b-a)}\tan\frac{1}{2}x}^{2} \\
+\text{Let } y = \sqrt{b -a  }\tan{\frac{1}{2}x} \\
+\frac{dy}{dx} = \frac{1}{2}\sqrt{b -a } \sec^{2}{\frac{1}{2}x} \\
+\sec^{2}{\frac{1}{2}x} = \frac{2 dy}{\sqrt{b - a }} \\
+I =  \frac{2}{\sqrt{b-a}} \int \frac{dy}{ (\sqrt{(a + b ) })^{2} -  y^{2 }}\\
+I = \frac{2}{\sqrt{b-a}} \times \frac{1}{ 2 \sqrt{a+b}} \log_{e}(\frac{\sqrt{a +b } + y }{\sqrt{a+b} -y }) \\
+I = \frac{1}{\sqrt{b^{2}- a^{2}}} \log_{e}(\frac{\sqrt{b + a} + \sqrt{b - a} \tan{\frac{1}{2}x}}{\sqrt{b + a} - \sqrt{b - a} \tan{\frac{1}{2}x}})
+$$
+
+
+# Derivation of condition \( a = b  \) 
+
+$$
+I = \int \frac{dx}{a(1 + \cos(x))} \\
+= \frac{1}{a}  \int \frac{dx}{2 \cos^{2}(\frac{x}{2} )}dx  \\
+= \frac{1}{2a} \int \sec^{2}{\frac{x}{2}} dx \\
+= \frac{1}{2a}  \frac{\tan{\frac{x}{2}}}{\frac{1}{2}}  \\
+= \frac{1}{a} \tan{\frac{x}{2}}
+$$
+
+>>> 
+<<<
+###  State the expression for special trigonometric function in the teems of \( a + b  \cos(x) \) as denominator in \( a > b \)
+---
+
+$$ \int \frac{dx}{a + b \cos{x}} =  \frac{2}{\sqrt{a^{2}- b^{2}}} \tan^{-1}(\sqrt{\frac{{a-b}}{a + b}} \tan{\frac{x}{2}}) $$
+
+>>> 
+<<<
+### State the expression for special trigonometric function in the teems of \( a + b  \cos(x) \) as denominator in \( b > a \)
+---
+$$  \int \frac{dx}{a + b \cos{x}} = \frac{1}{\sqrt{b^{2}- a^{2}}} \log_{e}(\frac{\sqrt{b + a} + \sqrt{b - a} \tan{\frac{1}{2}x}}{\sqrt{b + a} - \sqrt{b - a} \tan{\frac{1}{2}x}}) $$
+
+>>> 
+<<<
+###  State the expression for special trigonometric function in the teems of \( a + b  \cos(x) \) as denominator in \( a = b  \)
+---
+
+$$   \int \frac{dx}{a + b \cos{x}} = \frac{1}{a} \tan{\frac{x}{2}} $$
+
+
+>>> 
+<<<
+## State the Expression for special trigonometric function as \( a +b \sin(x) \) in denomninator
+---
+
+$$ \int \frac{dx}{a + b \sin(x)} $$
+
+
+>>> 
+<<<
+### Derive the expression  of integral for special trigonometric function as \( a + b \sin(x) \) in denominator
+---
+
+
+$$
+I = \int \frac{dx}{a + b \sin(x) } \\
+I = \int \frac{dx}{a \sin^{2}{\frac{x}{2}} + a \cos^{2}{\frac{x}{2}} + b 2 \sin(x) \cos(x)}  \\
+I = \int \frac{\sec^{2}{\frac{x}{2}}}{a \tan^{2}{\frac{x}{2}}   + a + 2b \tan(\frac{x}{2})} dx \\
+\text{Let} y = \tan{\frac{x}{2}} \\
+\frac{dy}{dx} = \frac{1}{2}\sec^{2}{\frac{x}{2}} \\
+\sec^{2}{\frac{x}{2}}dx = 2 dy \\
+I = \int \frac{2dy}{ay^{2} + 2by + a} \\
+I = 2 \int \frac{dy}{(\sqrt{a}y)^{2}  + 2 \sqrt{a}y \frac{b}{\sqrt{a}} + (\frac{b}{\sqrt{a}})^{2} + a - (\frac{b}{\sqrt{a}})^{2} } \\
+I = 2 \int \frac{dy}{(\sqrt{a}y + frac{b}{\sqrt{a}})^{2}  + (\sqrt{\frac{a^{2}-b^{2}}{a}})^{2} }\\
+I = \frac{2}{a \sqrt{a^{2}- b^{2}}} \tan^{-1}(\frac{\sqrt{a}\tan{\frac{x}{2}} + \frac{b}{\sqrt{a}}}{\frac{\sqrt{a^{2} - b^{2}}}{\sqrt{a}}}) \\
+I = \frac{2}{\sqrt{a^{2}- b^{2}}} \tan^{-1}(  \frac{ a \tan(\frac{x}{2}) + b}{\sqrt{a^{2} - b^{2}}} )
+$$
+
+
+
+
+>>> 
+<<<
+### State the expression for special trigonometric function in the terms of \( a + b  \sin(x) \) as denominator 
+---
+
+$$ \int \frac{dx}{a + b \sin(x)} = \frac{2}{\sqrt{a^{2}- b^{2}}} \tan^{-1}(  \frac{ a \tan(\frac{x}{2}) + b}{\sqrt{a^{2} - b^{2}}} ) $$ 
+
+
+>>> 
+
+
+
+
+
+
+
+
+
+
+
+
+

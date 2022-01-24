@@ -1,0 +1,5 @@
+#!/bin/bash
+mkdir -p /var/pool/col/entrance/psets/engdote/dailycap/$(date +%y)/$(date +%b)/$(date +%d)
+python /home/azine/dist/scripts/enentrance/peadailycap/pdf.py > /tmp/tmp.md
+pandoc --standalone --verbose --from markdown+tex_math_single_backslash+tex_math_double_backslash /tmp/tmp.md -o /var/pool/col/entrance/psets/engdote/dailycap/$(date +%y)/$(date +%b)/$(date +%d)/cap$(date +%y%b%d).pdf  --template eisvogel --listings --pdf-engine=xelatex
+zathura /var/pool/col/entrance/psets/engdote/dailycap/$(date +%y)/$(date +%b)/$(date +%d)/cap$(date +%y%b%d).pdf 

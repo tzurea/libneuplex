@@ -1,0 +1,281 @@
+
+
+#### Derive the derivative of inverse sine
+
+- The function $ y $ $ = \sin^{-1}(x) $.
+
+
+\begin{align*}
+x = \sin(y) \\
+\frac{dx}{dx} = \frac{d \sin (y)}{dy} \frac{dy}{dx} \\
+\frac{dy}{dx} = \frac{1}{\cos y} \\
+\frac{dy}{dx} = \frac{1}{\text{derivative of sine function}y}
+\end{align*}
+
+### State the General expression for derivative of  inverse sine trigonometric functions.
+
+The general expression for derivative of inverse sine trigonometric function is
+
+
+- $$ \frac{d \sin^{-1}(x)}{dx} = \frac{1}{\sqrt{1 - x^{2}}} $$ 
+
+
+
+
+##### What is the condition for application general rule for derivative inverse function in two functions $$ f(x) and g(x) $$
+
+$$ f^{'}(x) = g(x) $$
+
+The condition for application of the general expression in inverse of any function  is
+
+- The derivative of function $ f(x) $ be equal to $ g(x) $ .
+- $$  \frac{d}{dx} f(x) = g(x) $$
+
+
+#### State the general expression for derivative of  inverse functions in terms of original functions.
+
+
+- The function $ y= f^{-1}(x) $ is taken. 
+- The general expression for inverse of a function  $ y $ is expressed as
+- $$ \frac{d}{dx} f^{-1}(x) = \frac{1}{g(y)} $$ 
+
+
+
+
+
+## State the formula for derivative of inverse sine.
+
+The expression for derivative of inverse sine is
+
+- $$  \frac{d}{dx} \sin^{-1}(x) = \frac{1}{\sqrt{1 - x^{2}}} $$
+
+## State the formula for derivative of Inverse cosine
+
+The expression for derivative of inverse sine is
+
+- $$  \frac{d}{dx} \cos^{-1}(x) = \frac{-1}{\sqrt{1 - x^{2}}} $$
+
+
+## State the formula for derivative of Inverse tangent
+
+The expression for derivative of inverse tangent is
+
+- $$  \frac{d}{dx} \tan^{-1}(x) = \frac{1}{1 + x^{2}} $$
+
+## State the formula for derivative of Inverse cotangent
+
+The expression for derivative of inverse cotangent is
+
+- $$  \frac{d}{dx} \cot^{-1}(x) = \frac{-1}{1 + x^{2}} $$
+
+
+## State the formula for derivative of Inverse secant
+
+The expression for derivative of inverse secant is
+
+- $$  \frac{d}{dx} \sec^{-1}(x) = \frac{1}{x\sqrt{1 - x^{2}}} $$
+
+
+## State the formula for derivative of Inverse cosecant
+The expression for derivative of inverse cosecant is
+
+- $$  \frac{d}{dx} \cosec^{-1}(x) = \frac{-1}{x \sqrt{1 - x^{2}}} $$
+
+
+
+## State the expression for euler's number in terms of $ x \to 0 $ 
+
+The expression for euler's  number in terms of $ x \to 0 $ is
+
+- $$ e =  \lim_{x \to 0 } = (1 + x )^{\frac{1}{x}} $$
+
+## State the expression for euler's number in terms of $ n \to \infty $ 
+
+The expression for euler's  number in terms of $ n \to \infty $ is
+
+
+- $$ e = \lim_{h \to \infty} = ( 1 + \frac{1}{x} )^{n} $$ 
+
+## State the expression for euler's number in terms of binomial expansion
+
+The expression for euler's  number in terms of binomial expansion is
+
+- $$ e = 1 + \frac{1}{1!} + \frac{2}{2!} + \frac{1}{3!} + . . . + \infty $$
+
+
+
+## State the expression for hyperbolic sine in terms of e.
+
+The expression for hyperbolic sine is
+
+- $$ sinh(x) = \frac{e^{x} - e^{-x}}{2} $$ 
+
+## State the Expression for hyperbolic cosine in terms of e.
+
+
+The expression for hyperbolic cosine is
+
+
+- $$ cosh(x) = \frac{e^{x}  + e^{-x}}{2} $$ 
+
+
+## State the Expression for hyperbolic tangent in terms of e.
+
+The expression tangent hyperbolic is
+
+
+- $$ tanh(x) = \frac{e^{x} - e^{-x}}{e^{x} + e^{-x} } $$ 
+
+
+## State the Expression for hyperbolic cotangent in terms of e.
+
+The expression for hyperbolic cotangent is
+
+- $$ coth(x) = \frac{e^{x} + e^{-x}}{e^{x} - e^{-x}}
+
+
+## State the Expression for hyperbolic secant in terms of e.
+
+The expression for hyperbolic secant is
+
+
+- $$ sech(x) = \frac{2}{e^{x} + e^{-x}}   $$
+
+
+## State the Expression for hyperbolic cosecant in terms of e.
+
+
+The expression for hyperbolic cosecant is
+
+
+
+- $$  cosech(x) = \frac{2}{e^{x} - e^{-x}} $$ 
+
+
+
+
+
+
+## State the Expression for sine and cosine in terms of their square
+
+The expression for sine and cosine in terms of their square is
+
+
+- $$ \cos^{2} \theta + \sin^{2} \theta = 1 $$
+
+
+## State the Expression for tangent in terms of secant
+
+
+The expression for tangent in terms of secant is
+
+$$ 1 + \tan^{2} \theta = \sec^{2} \theta $$ 
+
+
+## State the Expression for cotangent in terms of cosecant
+
+
+The expression for cotangent in terms of cosecant is
+
+$$ \cot^{2} \theta + 1 = \csc^{2} \theta $$ 
+
+
+## State the Expression for $ \cos 2 \theta $ in terms of $ \sin $ and $ \cos $ 
+
+
+The expression for $ \cos 2 \theta $ in terms of $ \sin $ and $ \cos $ is
+
+
+$$ \cos{2 \theta} = \cos^{2} - \sin^{2} $$ 
+
+
+## State the Expression for $ \sin 2 \theta $ in terms of $ \sin $ and $ \cos $ 
+
+
+The expression for $ \sin 2 \theta $ in terms of $ \sin $ and $ \cos $ is
+
+$$ \sin {2 \theta} = 2 \sin(\theta) \cos(\theta)  $$ 
+
+
+## State the Expression for $ \cos 2 \theta $ in terms of $ \tan $ 
+
+
+The expression for $ \cos 2 \theta $ in terms of $ \tan  $ is
+
+$$ \cos(2 \theta) = \frac{1 - \tan^{2}{\theta}}{1 + \tan^{2}{\theta}}
+
+
+## State the Expression for $ \sin 2 \theta $ in terms of $ \tan $ 
+
+The expression for $ \sin 2 \theta  $  in terms of $ \tan $ is
+
+
+$$ \sin(2 \theta) = \frac{2 \tan{\theta}}{1 + \tan^{2}{\theta}} $$ 
+
+## State the Expression for $ \tan 2 \theta $ in terms of $ \tan $ 
+
+
+The expression for $ \tan 2 \theta $ in terms of $ \tan $ is
+
+$$ \tan(2 \theta) = \frac{2 \tan(\theta)}{1 - \tan^{2}{\theta} }  $$ 
+
+
+## State the Expression for hyperbolic sine and hyperbolic cosine in terms of their square
+
+The expression for  hyperbolic sine and hyperbolic cosine in terms of their square is
+
+$$ cosh^{2}(x) - sinh^{2}(x) = 1  $$ 
+
+
+## State the Expression for hyperbolic tangent in terms of secant
+
+
+The expression for hyperbolic tangent in terms of secant is
+
+$$ 1 - tanh^{2}{x} = sech^{2}(x) $$ 
+
+## State the Expression for hyperbolic cotangent in terms of cosecant
+
+
+The expression for hyperbolic cotangent in terms of cosecant is
+
+$$ coth^{2}(x) - 1 = cosech^{2}(x) $$ 
+
+
+## State the Expression for $ cosh(2x) $ in terms of $ cosh(x) $ and $ sinh(x) $ 
+
+The expression for $ cosh(2x ) $ in terms of $ cosh $ and $ sinh $ is
+
+$$ cosh(2x) = cosh^{2}(x) + sinh^{2}(x) $$ 
+
+
+## State the Expression for $ sinh(2x) $ in terms of $ cosh(x) $ and $ sinh(x) $ 
+
+
+The expression for $ sinh(2x) $ in terms of $ cosh $ and $ sinh $ is
+
+$$ sinh(2x) = 2 sinh(x) cosh(x) $$ 
+
+## State the Expression for $ cosh(2x) $ in terms of $ tanh(x) $ 
+
+The expression for $ cosh(2x) $ in terms of $ tanh(x) $ is
+
+$$ cosh(2x) = \frac{1 + tanh^{2}{x}}{1 - tanh^{2}{x}} $$ 
+
+
+## State the Expression for $ sinh(2x) $ in term of $ tanh(x) $ 
+
+
+The expression for $ sinh(2x) $ in terms of $ tanh(X) $ is
+
+$$ sinh(2x) = \frac{2 tanh(x)}{1 + tanh^{2}(x)} $$ 
+
+
+## State the Expression for $ tanh(2x) $ in terms of $ tanh(x) $ 
+
+The expression for $ tanh(2x) $ in terms of $ tanh(X) $ is
+
+$$ tanh(2x) = \frac{2 tanh(x)}{1 + tanh^{2}(x)} $$ 
+
+
+

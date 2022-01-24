@@ -1,0 +1,25 @@
+{
+  "packages": [
+    {
+      "name": "README",
+      "decks": [
+        {
+          "name": "dist::physics::electromagnetism::teffect",
+          "src": [
+            {
+              "type": "markdown",
+              "file": "README.cards",
+              "card_properties": {
+                "tags": [
+                  "Physics",
+                  "Electromagnetism",
+                  "teffect"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

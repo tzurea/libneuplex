@@ -1,0 +1,5 @@
+#!/bin/bash
+cd /home/azine/dist/scripts/enentrance/peasatmock/ 
+python /home/azine/dist/scripts/enentrance/peasatmock/fetch.py
+bash /home/azine/dist/scripts/enentrance/peasatmock/peadpdf
+

@@ -1,0 +1,33 @@
+Graph of alternating current and direct current  : [IM]
+Alternating emf on rotation of coil in magnetic field  : [$] E = E_{0} \sin \omega t  [/$]  
+Alternating current on rotation of coil in magnetic field  : [$] I = I_{0} \sin \omega t [/$]  
+Time period  : [$] T = \frac{2 \pi}{\omega } [/$]  
+Average value of ac over first half cycle : [$] I_{av} = \frac{2 I_{0}}{\pi} [/$]  
+Magnitude of [$] \frac{2}{\pi} [/$] : 0.637  
+Average value of alternating emf over first half cycle : [$] E_{av} = \frac{2 E_{0}}{\pi} [/$]  
+Heat element in relation between peak and effective : [$] dH = I^{2}Rdt  [/$]  
+Mean of square of instantaneous value of ac : [$] \frac{1}{T} \int_{0}^{T} I^{2}dt  [/$]  
+Root mean square value  : [$] I_{rms} = \frac{I_{0}}{\sqrt{2}} [/$]
+Magnitude of [$] \frac{1}{\sqrt{2}} [/$] : 0.707 
+Root mean square value of alternating emf  : [$] \frac{E_{0}}{\sqrt{2}} [/$]  
+Representation of phasor diagram of alternating current and voltage : [IM] 
+Notation for angle between current and voltage at phasor : [$] \phi [/$]  
+Quantity for addition if it leads other quantity in phasor : [$] + \phi [/$]  
+Quantity for addition if it lags other quantity in phasor : [$] - \phi [/$]  
+Circuit of purely resistive circuit : [IM]
+Graph of E vs I at purely resistive circuit : [IM]
+Phasor diagram of E vs I at purely resistive circuit : [IM]
+Circuit for purely capacitive ac : [IM]
+Charge in relation with capacitance and voltage : [$] Q = CV [/$]  
+Voltage at capacitor ac circuit : [$] V = E_{0} \sin \omega t  [/$]  
+Current at capacitor ac circuit : [$] I = I_{0} \sin ( \omega t + \frac{\pi}{2} ) [/$]  
+Current amplitude at capacitor circuit : [$] CE_{0} \omega [/$]  
+Graph of voltage vs ac at capacitor  : [IM]
+Phasor diagram of voltage vs alternating current at capacitor : [IM]
+Capacitive reactance in terms of angular velocity : [$] X_{c} = \frac{1}{\omega C} [/$]  
+Capacitive reactance in terms of frequency  : [$] X_{c} = \frac{1}{2 \pi f C} [/$]  
+Relation of effective current and effective voltage at capacitor : [$] I_{rms} = \frac{E_{rms}}{X_{c}} [/$]  
+Graph of variation of capacitive reactance with frequency : [IM]
+
+
+

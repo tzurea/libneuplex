@@ -1,0 +1,38 @@
+#!/usr/bin/python
+import shlex
+import subprocess
+from bs4 import BeautifulSoup as bs
+import requests
+from urllib.parse import urlparse
+from urllib.parse import parse_qs
+
+from selenium import webdriver
+driver = webdriver.Firefox()
+driver.get ("https://pea.edu.np/login")
+driver.find_element_by_id("email").send_keys("trilochanbhusal108@gmail.com")
+driver.find_element_by_id ("password").send_keys("#108Chants.")
+driver.find_element_by_css_selector(".btn-auth").click()
+page_source = driver.page_source
+print(page_source)
+driver.quit()
+
+#string = """curl 'https://pea.edu.np/student/dashboard' -H 'User-Agent: Mozilla/5.0 (X11; Linux i686; rv:92.0) Gecko/20100101 Firefox/92.0' -H 'Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8' -H 'Accept-Language: en-US,en;q=0.5' --compressed -H 'Referer: https://pea.edu.np/login' -H 'Connection: keep-alive' -H 'Cookie: XSRF-TOKEN=eyJpdiI6IjNXQ3pUM2R4Z000MUJqbFBiK0xDdHc9PSIsInZhbHVlIjoiNE5aVHMxS0Nxc2VUSGhNSzdwUXFxeEtzc21VaVZMTHpNd3JTRUJwOFNIcnlPTWtpTUlKb05MWWZQdDVqZGFXZEgveUxsTlp0dEIzUWNRM2I5QXRQWkprRkJBYWd0ZXFsU1B2MDJyT0ZPbTY1ODY4NFFFSXZWSE1rVllGWkQwNTUiLCJtYWMiOiI5NmM3YTkxY2FmYmM4YTRkMWM1OTQ0MTNlOTYyNGUxOTg3NTkxMTQzMmMzNzJiNjc3Yzk3MmNmNzc3NDYzNDFjIn0%3D; pea_session=eyJpdiI6InZTd2g1MjVkZHJDd215VmFKeE9TTGc9PSIsInZhbHVlIjoiOThIbExtZm9kc0tNdVNUVEtpdkZ5NHlKakVuRUhMYXNMUDFkOWVVWEJmRW1WSCtLK3hTYXVoRG5JaDVueDJhODByODd6Zzd4NEZMdHVEVE9rRTdJa1oreDJxM3RHRWVHNXBLaGxqOThNendxUnd3T2tGbFJKd1g2UGlHbFRiYksiLCJtYWMiOiIzNGNhMWZiMzhkMmY0YWZkYTVmNzEwNmU1NzkzMDNkMzE4YWVkNmRkZWYzZDIyNmY3YmRjNDJiZDFjNzgyZGE2In0%3D' -H 'Upgrade-Insecure-Requests: 1' -H 'Sec-Fetch-Dest: document' -H 'Sec-Fetch-Mode: navigate' -H 'Sec-Fetch-Site: same-origin' -H 'Sec-Fetch-User: ?1' -H 'Cache-Control: max-age=0'"""
+
+#sout = subprocess.check_output(shlex.split(string))
+sout = page_source
+soup = bs(sout,features="lxml")
+
+for a in soup.findAll('div', attrs={'lecture-card-footer'}):
+    lnk = a.find('a')['href']
+    if "zoom" in lnk:
+        zlnk = lnk
+print(zlnk)
+purl = urlparse(zlnk)
+confno = purl.path[3:]
+pwd = parse_qs(purl.query)['pwd'][0]
+tk = parse_qs(purl.query)['tk'][0]
+zoommtg = "zoommtg://zoom.us/join?action=join&confno="+confno+"&pwd="+pwd+"&tk="+tk+"&browser=chrome"
+print(zoommtg)
+commandz = "/opt/zoom/config/sys/fs/trace/libc/network/daemon/conf/systohc/default/init/zoom/ZoomLauncher "+ zoommtg
+subprocess.call(shlex.split(commandz))
+

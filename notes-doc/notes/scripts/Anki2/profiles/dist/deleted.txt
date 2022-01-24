@@ -1,0 +1,285 @@
+nid	mid	fields
+1637949697919	1637594420211	How to derive the expression of Relation between phase difference and path difference    
+ in interference	 
+ [latex]
+ 
+ \begin{align*}
+ 
+ \text{Path difference } \lambda \text{has phase difference } 2 \pi \\
+ 
+ \text{Path difference } 1 \text{ has phase difference  } \frac{2 \pi}{\lambda} \\
+ 
+ \text{Path difference } x \text{has phase difference } \frac{2 \pi}{\lambda}
+ 
+ \end{align*}
+ 
+ [/latex]
+ 
+ 
+1637949697972	1637594420211	How to derive the expression of Optical path   
+ in interference	 
+ [latex]
+ 
+ \begin{align*}
+ 
+ c = \frac{d}{t} \\
+ 
+ t = \frac{d}{c} \\
+ 
+ v = \frac{x}{t} \\
+ 
+ t = \frac{x}{v} \\
+ 
+ \frac{x}{v} = \frac{d}{c} \\
+ 
+ d = \frac{x}{v}c \\
+ 
+ d = \frac{c}{v}x \\
+ 
+ d = \mu x
+ 
+ \end{align*}
+ 
+ [/latex]
+ 
+ 
+ 
+ 
+1637949698026	1637594420211	How to derive the expression of Equation of resultant superposed wave    
+ in interference	 
+ [latex]
+ 
+ \begin{align*}
+ 
+ y_{1} = a_{1} \sin \omega t \\
+ 
+ y_{2} = a_{2} \sin \omega t + \phi \\
+ 
+ y = y_{1} + y_{2} \\
+ 
+ y = a_{1} \sin \omega t + a_{2} \sin \omega t + \phi \\
+ 
+ y = a_{1} \sin \omega t + a_{2}( \sin \omega t \cos \phi + \cos \omega t \sin \phi ) \\
+ 
+ y = a_{1} \sin \omega t + a_{2} \sin \omega t \cos \phi + a_{2} \cos \omega t \sin \phi \\
+ 
+ y = (a_{1} + a_{2} \cos \phi) \sin \omega t + a_{2} \cos \omega t \sin \phi \\
+ 
+ A \cos \theta = a_{1} + a_{2} \cos \phi \\
+ 
+ A \sin \theta = a_{2} \sin \phi \\
+ 
+ y = A \sin( \omega t + \theta )
+ 
+ \end{align*}
+ 
+ [/latex]
+ 
+ 
+1637949698077	1637594420211	How to derive the expression of Equation of resultant amplitude of superposed wave    
+ in interference	 
+ [latex]
+ 
+ \begin{aligned}
+ 
+ A \cos \theta = a_{1} + a_{2} \cos \phi \\
+ 
+ A \sin \theta = a_{2} \sin \phi \\
+ 
+ \text{Squaring and adding} \\
+ 
+ A^{2} = a_{1}^{2} + 2 a_{1}a_{2} \cos \phi + a_{2}^{2} \cos^{2} \phi + a^{2}^{2} \sin^{2} \phi \\
+ 
+ A^{2} = a_{1}^{2} + a_{2}^{2} + 2 a_{1} a_{2} \cos \phi \\
+ 
+ A = \sqrt{ a_{1}^{2} + a_{2}^{2} + 2 a_{1} a_{2} \cos \phi }
+ 
+ \end{aligned}
+ 
+ [/latex]
+ 
+ 
+1637949698127	1637594420211	How to derive the expression of Maximum amplitude of superposed wave    
+ in interference	 
+ [latex]
+ 
+ \begin{align*}
+ 
+ A_{max} = \sqrt{ a_{1}^{2} + a_{2}^{2} + 2 a_{1} a_{2} } \\
+ 
+ A_{max} = a_{1} + a_{2}
+ 
+ \end{align*}
+ 
+ [/latex]
+ 
+ 
+1637949698179	1637594420211	How to derive the expression of Minimum amplitude of superposed wave    
+ in interference	 
+ [latex]
+ 
+ \begin{align*}
+ 
+ A_{min} = \sqrt{ a_{1}^{2} + a_{2}^{2} - 2 a_{1}a_{2}  } \\
+ 
+ A_{min} = | a_{1} - a_{2} |
+ 
+ \end{align*}
+ 
+ [/latex]
+ 
+ 
+1637949698237	1637594420211	How to derive the expression of Equation of intensity of superposed wave    
+ in interference	 
+ [latex]
+ 
+ \begin{align*}
+ 
+ A^{2} = a_{1}^{2} + a_{2}^{2} + 2 a_{1} a_{2} \cos \phi \\
+ 
+ I = I_{1} + I_{2} + 2 \sqrt{I_{1} I_{2}} \cos \phi
+ 
+ \end{align*}
+ 
+ [/latex]
+ 
+ 
+1637949698294	1637594420211	How to derive the expression of Maximum intensity of resultant superposed wave   
+ in interference	 
+ [latex]
+ 
+ \begin{align*}
+ 
+ I_{max} = I_{1} + I_{2} + 2 \sqrt{I_{1} I_{2}} \\
+ 
+ I_{max} = ( \sqrt{I_{1}} + \sqrt{I_{2}} )^{2}
+ 
+ \end{align*}
+ 
+ [/latex]
+ 
+ 
+1637949698346	1637594420211	How to derive the expression of Minimum intensity of resultant superposed wave    
+ in interference	 
+ [latex]
+ 
+ \begin{align*}
+ 
+ I_{min} = I_{1} + I_{2} - 2 \sqrt{I_{1}I_{2}} \\
+ 
+ I_{min} = ( \sqrt{I_{1}} - \sqrt{I_{2}} )^{2}
+ 
+ \end{align*}
+ 
+ [/latex]
+ 
+ 
+ 
+ 
+1637949698400	1637594420211	How to derive the expression of Phase difference of resultant superposed wave at constructive interference  
+ in interference	 
+ [latex]
+ 
+ \begin{align*}
+ 
+ \cos \phi = \text{max} = +1 \\
+ 
+ = \cos n 2 \pi \\
+ 
+ \text{n = 0,1,2, .. .. .. } \\
+ 
+ \phi = n 2 \pi
+ 
+ \end{align*}
+ 
+ [/latex]
+ 
+ 
+1637949698453	1637594420211	How to derive the expression of Path difference of resultant superposed wave at constructive interference   
+ in interference	 
+ [latex]
+ 
+ \begin{align*}
+ 
+ \text{Path difference} = \frac{\lambda}{2 \pi} 2 \pi n \\
+ 
+ = n \lambda
+ 
+ \end{align*}
+ 
+ [/latex]
+ 
+ 
+ 
+ 
+1637949698503	1637594420211	How to derive the expression of Phase difference of resultant superposed wave at destructive interference    
+ in interference	 
+ [latex]
+ 
+ \begin{align*}
+ 
+ \cos \phi = \text{min} = -1 \\
+ 
+ = \cos \pi(2n + 1) \\
+ 
+ \text{n = 0,1,2, .. .. .. ..} \\
+ 
+ \phi = 2 n \pi + \pi 
+ 
+ \end{align*}
+ 
+ [/latex]
+ 
+ 
+1637949698554	1637594420211	How to derive the expression of Path difference of resultant superposed wave at destructive interference    
+ in interference	 
+ [latex]
+\begin{align*}
+\text{Path difference} = \frac{\lambda}{2 \pi} \pi (2n + 1) \\
+= \frac{1}{2} \lambda (2n + 1)
+\end{align*}
+[/latex]
+
+
+
+
+
+
+
+
+
+
+
+
+
+1639149051362	1637594420211	How to derive the expression of Proof of de moivre's theorem   
+ in complex	  [latex]
+
+1639149051437	1637594420211	How to derive the expression of P(n)   [r( \cos \theta + i \sin \theta )]^{n}  = r^{n}( \cos n \theta +i \sin n \theta ) \\
+ in complex	  
+1639149051519	1637594420211	How to derive the expression of P(1)   r( \cos \theta + i \sin \theta ) = r^1( \cos 1 \theta + i \sin 1 \theta ) \\
+ in complex	  
+1639149051619	1637594420211	How to derive the expression of P(k)   [r( \cos \theta + i \sin \theta )]^{k} = r^{k}( \cos k \theta + i \sin k \theta ) \\
+ in complex	  
+1639149051708	1637594420211	How to derive the expression of P(k+1)   [r( \cos \theta + i \sin \theta )]^{k +1} = r^{k+1}( cos k \theta + i \sin k \theta )(\cos \theta + \sin \theta) \\
+ in complex	  = r^{k+1}( \cos( \theta(k+1) ) + i \sin ( \theta (k+1) ) ) \\
+\end{align*}
+[/latex]
+
+
+1639149051708	1637594420211	How to derive the expression of P(k+1)   [r( \cos \theta + i \sin \theta )]^{k +1} = r^{k+1}( cos k \theta + i \sin k \theta )(\cos \theta + \sin \theta) \\
+ in complex	  = r^{k+1}( \cos( \theta(k+1) ) + i \sin ( \theta (k+1) ) ) \\
+\end{align*}
+[/latex]
+
+
+1639139523877	1637594420211	Amplitude   Angle of arm of complex number from origin with the x axis
+ in complex	  
+1639139524023	1637594420211	Euler's formula   Relation between complex number in exponential form trigonometrical formula
+ in complex	 
+
+
+1639147501369	1637594420211	nth root of w   Complex number z whose nth power is w
+ in complex	 
+
+

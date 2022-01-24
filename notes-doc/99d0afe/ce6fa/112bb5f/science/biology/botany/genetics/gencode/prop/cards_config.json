@@ -1,0 +1,25 @@
+{
+  "packages": [
+    {
+      "name": "README",
+      "decks": [
+        {
+          "name": "dist::biology::botany::genetics::gencode",
+          "src": [
+            {
+              "type": "markdown",
+              "file": "README.cards",
+              "card_properties": {
+                "tags": [
+                  "Biology",
+                  "Genetics",
+                  "Geneticcode"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

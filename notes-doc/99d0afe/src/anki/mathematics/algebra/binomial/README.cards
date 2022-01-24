@@ -1,0 +1,54 @@
+
+
+<<<
+## State the expression for general term in binomial expansion
+---
+
+The general term in binomial expansion is expressed as
+
+- $$ t_{r + 1} = C(n,r)a^{n - r} x^{r}  $$
+
+
+>>> 
+<<<
+## State the Middle term in power of odd number in binomial expansion
+---
+
+The middle term for power of odd number in binomial expansion is
+
+$$  t_{\frac{n}{2} + 1 }  $$
+
+
+>>> 
+<<<
+## State the Middle term in power of even number in binomial expansion
+---
+
+The middle term for power of even number in binomial expansion is
+
+$$    
+t_{\frac{n+1}{2}  + 1 } \\
+t_{\frac{n-1}{2}  - 1   } \\
+$$ 
+
+>>> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

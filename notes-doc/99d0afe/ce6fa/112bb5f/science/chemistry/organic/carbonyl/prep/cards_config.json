@@ -1,0 +1,25 @@
+{
+  "packages": [
+    {
+      "name": "README",
+      "decks": [
+        {
+          "name": "dist::chemistry::organic::carbonyl",
+          "src": [
+            {
+              "type": "markdown",
+              "file": "README.cards",
+              "card_properties": {
+                "tags": [
+                  "Chemistry",
+                  "Organic",
+                  "Carbonyl"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

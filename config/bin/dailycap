@@ -1,0 +1,5 @@
+#!/bin/bash
+cd /home/azine/dist/scripts/enentrance/peadailycap/ 
+python /home/azine/dist/scripts/enentrance/peadailycap/fetch.py
+bash /home/azine/dist/scripts/enentrance/peadailycap/peadpdf
+

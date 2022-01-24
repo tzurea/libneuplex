@@ -1,0 +1,99 @@
+{
+  "main": {
+    "id": "73a2128c7451c792",
+    "type": "split",
+    "children": [
+      {
+        "id": "4f9ad77f847ebc9a",
+        "type": "leaf",
+        "state": {
+          "type": "empty",
+          "state": {}
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "dfbd2a27ae782658",
+    "type": "split",
+    "children": [
+      {
+        "id": "4426da838d8e1fe3",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "102f9ef4e37e95ce",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "635feeefdcd52eb6",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 273,
+    "collapsed": true
+  },
+  "right": {
+    "id": "672f864229e0ce60",
+    "type": "split",
+    "children": [
+      {
+        "id": "8434519260728dc8",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0422a790d1944c9b",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "4f9ad77f847ebc9a",
+  "lastOpenFiles": [
+    "biology/circulation/README.md",
+    "english/reported/README.md",
+    "chemistry/electrochemistry/README.md",
+    "physics/acousticphenomena/README.md",
+    "biology/physiology/README.md",
+    "biology/sexlinked/README.md",
+    "biology/humanpopulation/README.md",
+    "physics/mechanics/fluid/README.md",
+    "chemistry/polymer/Pasted image 20220111101027.png",
+    "chemistry/polymer/REAME.md"
+  ]
+}

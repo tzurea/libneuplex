@@ -1,0 +1,25 @@
+{
+  "packages": [
+    {
+      "name": "README",
+      "decks": [
+        {
+          "name": "dist::biology::zoology::tissue::gametogen",
+          "src": [
+            {
+              "type": "markdown",
+              "file": "README.cards",
+              "card_properties": {
+                "tags": [
+                  "Biology",
+                  "Zoology",
+                  "Gametogenesis"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
